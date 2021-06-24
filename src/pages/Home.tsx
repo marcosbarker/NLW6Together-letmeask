@@ -2,9 +2,11 @@ import illustrationImg from '../assets/images/illustration.svg'
 import logoImg from '../assets/images/logo.svg'
 import googleIconImg from '../assets/images/google-icon.svg'
 
+import '../styles/auth.scss';
+
 export function Home(){
   return(
-    <div>
+    <div id=page-auth>
       <aside>
         <img src={illustrationImg} alt=""/>
         <strong>Cria salas de Q&amp;A ao-vivo</strong>
@@ -34,5 +36,4 @@ export function Home(){
     </div>
 
   )
-
 }

@@ -44,3 +44,16 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+Firebase 
+npm install --save firebase
+
+Sass
+yarn add node-sass@^5.0.0
+
+Router
+yarn add react-router-dom
+
+*Caso ocorra o erro "Could not find a declaration file for module 'react-router-dom'...
+
+Instale o pacote usando o prefixo @types/. (yarn add @types/react-router-dom -D)
+
